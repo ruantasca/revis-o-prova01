@@ -41,6 +41,7 @@ color: rgb(0, 0, 0);
 background-color: burlywood;
 display: flex;
 justify-content: center;
+
 }
 .header{
   color: black;
@@ -51,6 +52,37 @@ justify-content: center;
   
 }
 
-@media only screen and (max-device-width: 900px) {
-  /* .menu { width:100%; } */
+@media screen and (max-width: 600px){
+  body{
+    width: 100vw;
   }
+
+  .footer{
+    width: 90vw;
+    height: 100vw;
+    justify-content: left;
+    
+  } 
+
+  .logo h1{
+    font-size: 30px;
+    
+  }
+  .header{
+    width: 90vw;
+    height: 70px;
+  }
+  .header h1{
+    font-size: 27px;
+  }
+
+  .fotos{
+    width: 75px;
+    height: 90px;
+  }
+  .galeria{
+    text-align: start;
+    justify-content: left;
+    padding: 10px 20px;
+  }
+}
